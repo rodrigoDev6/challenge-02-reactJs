@@ -7,7 +7,7 @@ interface GenreResponseProps {
   name: 'action' | 'comedy' | 'documentary' | 'drama' | 'horror' | 'family';
   title: string;
 }
-
+ 
 interface SideBarProps{
   selectedGenreId: number;
   handleClickButton: (id: number) => void;
